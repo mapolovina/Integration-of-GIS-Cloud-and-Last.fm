@@ -1,0 +1,125 @@
+#title {
+	width: 100%;
+	height: 10%;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	text-align: center;
+	background: no-repeat 7% center,
+		-webkit-gradient(linear, left-top, left-bottom, color-stop(0.00, #004c15), color-stop(1.00, #09c300));
+	background: no-repeat 7% center,
+		-webkit-linear-gradient(#004c15, #09c300);
+	background: no-repeat 7% center,
+		-moz-linear-gradient(#004c15, #09c300);
+	background: no-repeat 7% center,
+		-o-linear-gradient(#004c15, #09c300);
+	background: no-repeat 7% center,
+		-ms-linear-gradient(#004c15, #09c300);
+	background: no-repeat 7% center,
+		linear-gradient(#004c15, #09c300);
+}
+
+#pTitle {
+	color: #0000CC;
+	font-size: 150%;
+}
+
+#label1 {
+	top: 15%;
+	left: 0px;
+	position: absolute;
+}
+
+#response1 {
+	top: 15%;
+	left: 500px;
+	margin: 2.5px;
+	position: absolute;
+	color: red;
+}
+
+#results {
+	top: 25%;
+	left: 0px;
+	position: absolute;
+}
+
+#label2 {
+	top: 33%;
+	left: 0px;
+	position: absolute;
+}
+
+#response2 {
+	top: 33%;
+	left: 500px;
+	margin: 2.5px;
+	position: absolute;
+	color: red;
+}
+
+#label3 {
+	top: 38%;
+	left: 0px;
+	position: absolute;
+}
+
+#response3 {
+	top: 38%;
+	left: 500px;
+	margin: 2.5px;
+	position: absolute;
+	color: red;
+}
+
+#label4 {
+	top: 43%;
+	left: 0px;
+	position: absolute;
+}
+
+#response4 {
+	top: 43%;
+	left: 500px;
+	margin: 2.5px;
+	position: absolute;
+	color: red;
+}
+
+.input {
+	left: 300px;
+	position: absolute;
+}
+
+#toolbar {
+	top: 15%;
+	right: 0px;
+	position: absolute;
+	background-color: #09c300;
+	width: 45%; 
+	opacity: 0.8;
+}
+
+#map {
+	width: 45%;
+	height: 70%;
+	position: absolute;
+	top: 20%;
+	right: 0px;
+}
+
+#save {
+	width: 100px;
+	top: 50%;
+	left: 300px;
+	position: absolute;
+}
+
+#text {
+	width: 30%;
+	height: 20%;
+	top: 70%;
+	left: 0px;
+	position: absolute;
+	color: #0000CC;
+}

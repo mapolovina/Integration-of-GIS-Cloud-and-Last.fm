@@ -1,6 +1,7 @@
 <!-- Izradio:
 			Marko Polovina
 							!-->
+<!DOCTYPE html>
 <html>
 <head>
 
@@ -14,26 +15,43 @@
 </head>
 <body>
 
+	<!-- division for page title !-->
 	<div id="title">
 		<p id="pTitle"> Search for some good concert! </p>
 	</div>
 
+	<!-- input artist name !-->
 	<label id="label1">Search by artist: <input id="author" class="input" placeholder="example: The Black Keys"></label><p id="response1"></p>
 
+	<!-- text !-->
 	<p id="results"> <i>Save your results to Gis Cloud</i> </p>
 
+	<!-- input map name !-->
 	<label id="label2">Give a name to your map: <input id="mapName" class="input" placeholder="example: My map"></label><p id="response2"></p>
 
+	<!-- input layer name !-->
 	<label id="label3">What about your layer name: <input id="layerName" class="input" placeholder="example: Layer01"></label><p id="response3"></p>
 
+	<!-- input table name !-->
 	<label id="label4">What would be your table name: <input id="tableName" class="input" placeholder="example: table0906"></label><p id="response4"></p><br>
 
+	<!-- division for toolbar and map !-->
 	<div id="toolbar"></div>
 	<div id="map"></div>
 
+	<!-- save button !-->
 	<button id="save">Submit</button><br>
 
+	<!-- response division !-->
 	<div id="text"></div>
+
+	<!-- table division !-->
+	<div id="featureData">
+	</div>
+
+	<!-- login division !-->
+	<div id="login">
+	</div>
 
 </body>
 </html>

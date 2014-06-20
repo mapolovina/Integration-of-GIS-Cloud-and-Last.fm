@@ -1,9 +1,18 @@
+@CHARSET "UTF-8";
+
+/* import and use Open Sans -> Google font */
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* style for title division */
 #title {
 	width: 100%;
 	height: 10%;
 	top: 0px;
 	left: 0px;
-	position: absolute;
+	position: fixed;
 	text-align: center;
 	background: no-repeat 7% center,
 		-webkit-gradient(linear, left-top, left-bottom, color-stop(0.00, #004c15), color-stop(1.00, #09c300));
@@ -19,17 +28,20 @@
 		linear-gradient(#004c15, #09c300);
 }
 
+/* style for title text */
 #pTitle {
 	color: #0000CC;
 	font-size: 150%;
 }
 
+/* first label */
 #label1 {
 	top: 15%;
 	left: 0px;
 	position: absolute;
 }
 
+/* alert if you forget to write author name */
 #response1 {
 	top: 15%;
 	left: 500px;
@@ -38,18 +50,21 @@
 	color: red;
 }
 
+/* style for text */
 #results {
 	top: 25%;
 	left: 0px;
 	position: absolute;
 }
 
+/* second label */
 #label2 {
 	top: 33%;
 	left: 0px;
 	position: absolute;
 }
 
+/* alert if you forget to write map name */
 #response2 {
 	top: 33%;
 	left: 500px;
@@ -58,12 +73,14 @@
 	color: red;
 }
 
+/* third label */
 #label3 {
 	top: 38%;
 	left: 0px;
 	position: absolute;
 }
 
+/* alert if you forget to write layer name */
 #response3 {
 	top: 38%;
 	left: 500px;
@@ -72,12 +89,14 @@
 	color: red;
 }
 
+/* fourth label */
 #label4 {
 	top: 43%;
 	left: 0px;
 	position: absolute;
 }
 
+/* alert if you forget to write table name */
 #response4 {
 	top: 43%;
 	left: 500px;
@@ -86,11 +105,13 @@
 	color: red;
 }
 
+/* style for input class */
 .input {
 	left: 300px;
 	position: absolute;
 }
 
+/* style for map toolbar */
 #toolbar {
 	top: 15%;
 	right: 0px;
@@ -100,6 +121,7 @@
 	opacity: 0.8;
 }
 
+/* style for map */
 #map {
 	width: 45%;
 	height: 70%;
@@ -108,6 +130,7 @@
 	right: 0px;
 }
 
+/* style for submit button */
 #save {
 	width: 100px;
 	top: 50%;
@@ -115,6 +138,7 @@
 	position: absolute;
 }
 
+/* alert if there is any problem with data saving */
 #text {
 	width: 30%;
 	height: 20%;
@@ -122,4 +146,29 @@
 	left: 0px;
 	position: absolute;
 	color: #0000CC;
+}
+
+/* division to show saved data */
+#featureData {
+	width: 45%;
+	height: 40px;
+	top: 92%;
+	right: 0px;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	overflow-y: auto;
+	background-color: #09c300;
+	opacity: 0.8;
+}
+
+/* style for login division */
+#login {
+	width: 290px;
+	height: 40px;
+	top: 92%;
+	left: 10px;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
 }
